@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    background-image: url("sky.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+     
+} 
+
+table, th, td {
+    margin-left: auto;
+    margin-right: auto;
+    padding : 10px;
+    border: 1px solid black;
+    width: 40%;
+    font-size: 30px;
+}
+
+.checked {
+    color: orange
+}
+
+
+
+ul {
+    list-style-position: inside;
+    line-height: 45px;
+    
+}
+
+#cv {
+    width: 1800px;
+    height: 2150px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+
+    
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 50px;
+
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+
+  }
+
+
+
+img {
+    border-radius: 50% ;
+    border : 6px solid rgb(124, 12, 40);
+    padding : 5px;
+
+    height: 300px;
+    width: 300px;
+
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+p,ul {
+    font-size: 30px;
+}
+
+form{
+    text-align: left;
+    padding-left: 30px;
+}
+
+input[type=text] {
+    width: 500px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    
+    text-align: center;
+    font-size: 30px;
+}
+
+textarea {
+    text-align: center;
+    font-size: 30px;
+
+}
+
